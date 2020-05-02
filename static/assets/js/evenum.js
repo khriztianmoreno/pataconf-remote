@@ -327,9 +327,4 @@
       $('.preloader').delay(400).fadeOut('slow');
     });
   }
-  if ($('#mc-form').length) {
-    $('#mc-form').ajaxChimp({
-      url: '//themeatom.us8.list-manage.com/subscribe/post?u=ff3692fd18ce8994d8d025404&amp;id=aab3b54290'
-    });
-  }
 })()
