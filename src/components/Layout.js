@@ -5,10 +5,12 @@ import Preloader from './Prealoader'
 import Header from "./Header"
 import Footer from "./Footer"
 
+const ENV = process.env.NODE_ENV
+
 const Layout = ({ children }) => {
   return (
     <>
-      <Preloader />
+      {ENV === 'production' && <Preloader /> }
       <Header />
       {children}
       <Footer />

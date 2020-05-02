@@ -324,7 +324,7 @@
   if ($('.preloader').length) {
     $(window).on('load', function () { // makes sure the whole site is loaded
       $('.cp-preloader').fadeOut('slow');
-      $('.preloader').delay(400).fadeOut('slow');
+      $('.preloader').delay(1200).fadeOut('slow');
     });
   }
 })()
