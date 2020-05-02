@@ -1655,8 +1655,13 @@ textarea {
 */
 
 #price-section {
-  background: url(https://via.placeholder.com/1920x1080/777/ddd) no-repeat center center;
+  background: url(../img/bg.jpeg) no-repeat center center;
   background-size: cover;
+}
+
+.price-bg {
+  background: rgba(0, 0, 0, 0.57);
+  backdrop-filter: blur(8px);
 }
 
 .single-price {
