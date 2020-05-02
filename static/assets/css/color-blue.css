@@ -1,0 +1,173 @@
+/* #00b9ff */
+a {
+    color: #00b9ff;
+}
+
+a:hover {
+    color: #2F80ED;
+}
+
+.nav-menu>li:hover>a,
+.nav-menu>li.active>a,
+.nav-menu>li.focus>a,
+.nav-dropdown>li:hover>a,
+.nav-dropdown>li.focus>a,
+#hero-section .hero-wrap p span,
+.ev-accordion .card-header .speaker-info .ac-sp-name,
+.color-green,
+.single-price h3,
+.single-blog-inner .post-title:hover h4,
+.single-blog-inner .post-title:hover h3,
+#footer-section .ev-widget-wrap ul li a:hover,
+.dropdown-cart .product-button a:hover,
+.sidenav-menu li a:hover,
+.search-overlay .search-social li a:hover,
+.blog-author .list-inline a:hover,
+.hero-innar li.color-yellow {
+    color: #00b9ff !important;
+}
+
+.ev-btn,
+#schedule-section .nav-tabs .nav-item.show .nav-link,
+#schedule-section .nav-tabs .nav-link.active,
+.ev-btn-medium,
+.ev-btn-submit,
+#top-button,
+.sidenav .closebtn,
+.accordian-list h4:before,
+.accordian-list h4[aria-expanded="true"]::after,
+.schedule-layout-two .nav-pills .nav-link.active,
+.schedule-layout-two .nav-pills .show>.nav-link,
+.preloader {
+    background: #00b9ff !important;
+}
+
+.ev-btn:hover,
+.ev-btn-medium:hover,
+.ev-btn-medium-line:hover,
+.ev-btn-line:hover,
+.ev-btn-submit:hover,
+#top-button:hover,
+#top-button:active {
+    background: #2F80ED !important;
+}
+
+.speaker-layout .speaker-wrap .single-speaker .sp-hover,
+.single-price .lable,
+.schedule-timer {
+    background: linear-gradient(to bottom, #00b9ff, #2F80ED);
+    ;
+}
+
+.cbp-caption-zoom .cbp-caption-activeWrap {
+    background: linear-gradient(320deg, rgba(0, 185, 255, 0.8) 0%, rgba(47, 128, 255, 0.8) 100%);
+}
+
+#counter-section .count-wrap:before {
+    background: rgba(0, 185, 255, 0.08);
+}
+
+#counter-section .count-wrap:after {
+    background: rgba(0, 185, 255, 0.04);
+}
+
+.single-price:before {
+    background: rgba(0, 185, 255, 0.08);
+}
+
+.single-price:after {
+    background: rgba(0, 185, 255, 0.04);
+}
+
+#cd-google-map address {
+    background: rgba(0, 185, 255, 0.9);
+}
+
+#cd-zoom-in,
+#cd-zoom-out {
+    background-color: rgba(0, 185, 255, 0.9);
+    background-repeat: no-repeat;
+    background-size: 32px 64px;
+    background-image: url('../lib/google-map/img/cd-icon-controller.svg');
+}
+
+.ev-line-c1 {
+    border-top-color: #00b9ff !important;
+}
+
+.ev-btn-medium-line,
+.ev-btn-line,
+.sidebar .sidebar-search input:focus,
+.comment-form-layout input:focus,
+.comment-form-layout input:active,
+.comment-form-layout textarea:focus,
+.comment-form-layout textarea:active,
+.input-field input:focus,
+.input-textarea textarea:focus {
+    border-color: #00b9ff !important;
+}
+
+.ev-btn-medium-line:hover,
+.ev-btn-line:hover {
+    border-color: #2F80ED !important;
+}
+
+#schedule-section .nav-tabs .nav-link.active:after {
+    border-color: #00b9ff transparent transparent transparent !important;
+}
+
+.schedule-layout-two .nav-pills .nav-link.active:before {
+    border-color: transparent transparent transparent #00b9ff !important;
+}
+
+.nav-menu>li:hover>a .submenu-indicator-chevron,
+.nav-menu>.active>a .submenu-indicator-chevron,
+.nav-menu>.focus>a .submenu-indicator-chevron,
+.nav-dropdown>li:hover>a .submenu-indicator-chevron,
+.nav-dropdown>.focus>a .submenu-indicator-chevron {
+    border-color: transparent #00b9ff #00b9ff transparent !important;
+}
+
+.single-price h3.color-orange {
+    color: #FF5722 !important;
+}
+
+.single-price h3.color-purpal {
+    color: #9C27B0 !important;
+}
+
+#days.color-red {
+    color: #37e075 !important;
+}
+
+.icon .color-yellow {
+    color: #fdc302 !important;
+}
+
+.sponsor .icon .color-green {
+    color: #37e075 !important;
+}
+
+#hours.color-yellow {
+    color: #f61e50 !important;
+}
+
+#minutes.color-green {
+    color: #fdc302 !important;
+}
+
+#sponsor-section .sponsor-wrap {
+    background: #ffffff url('../img/text1-blue.png') no-repeat 59em 3em;
+    background-size: contain;
+}
+.single-price {
+    background: #ffffff url('../img/text1-blue.png') no-repeat 1em 16em;
+    background-size: contain;
+}
+
+@media screen and (max-width: 767px) {
+    .single-price {
+        background: #ffffff url('../img/text1-blue.png') no-repeat 5em 14em;
+        background-size: contain;
+    }
+}

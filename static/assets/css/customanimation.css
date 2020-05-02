@@ -1,0 +1,269 @@
+/*
+======================================== 
+* Template Name: Evenum
+* Author: WPEqual
+* File Name: Custom Animation
+========================================
+*/
+
+@keyframes animationRoatet {
+    0% {
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+    41% {
+        transform: translate(0px, 0px) rotate(74deg);
+    }
+    79% {
+        transform: translate(0px, 1px) rotate(142deg);
+    }
+    100% {
+        transform: translate(0px, 1px) rotate(180deg);
+    }
+}
+
+@-webkit-keyframes animationRoatet {
+    0% {
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+    }
+    41% {
+        -webkit-transform: translate(0px, 0px) rotate(120deg);
+    }
+    79% {
+        -webkit-transform: translate(0px, 0px) rotate(240deg);
+    }
+    100% {
+        -webkit-transform: translate(0px, 0px) rotate(360deg);
+    }
+}
+
+@keyframes animationFrames {
+    0% {
+        transform: translate(0px, 0px);
+    }
+    25% {
+        transform: translate(76px, 50px);
+    }
+    50% {
+        transform: translate(-27px, 110px);
+    }
+    75% {
+        transform: translate(-59px, 48px);
+    }
+    100% {
+        transform: translate(0px, 0px);
+    }
+}
+
+@-webkit-keyframes animationFrames {
+    0% {
+        -webkit-transform: translate(0px, 0px);
+    }
+    25% {
+        -webkit-transform: translate(76px, 50px);
+    }
+    50% {
+        -webkit-transform: translate(-27px, 110px);
+    }
+    75% {
+        -webkit-transform: translate(-59px, 48px);
+    }
+    100% {
+        -webkit-transform: translate(1px, 0px);
+    }
+}
+
+@keyframes animationFramesTwo {
+    0% {
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+    25% {
+        transform: translate(76px, 50px) rotate(60deg);
+    }
+    50% {
+        transform: translate(-27px, 110px) rotate(120deg);
+    }
+    75% {
+        transform: translate(-59px, 48px) rotate(240deg);
+    }
+    100% {
+        transform: translate(0px, 0px) rotate(360deg);
+    }
+}
+
+@-webkit-keyframes animationFramesTwo {
+    0% {
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+    }
+    25% {
+        -webkit-transform: translate(76px, 50px) rotate(60deg);
+    }
+    50% {
+        -webkit-transform: translate(-27px, 110px) rotate(120deg);
+    }
+    75% {
+        -webkit-transform: translate(-59px, 48px) rotate(240deg);
+    }
+    100% {
+        -webkit-transform: translate(1px, 0px) rotate(360deg);
+    }
+}
+
+@keyframes animationFramesThree {
+    0% {
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+    30% {
+        transform: translate(80px, 70px) rotate(120deg);
+    }
+    60% {
+        transform: translate(160px, 140px) rotate(240deg);
+    }
+    100% {
+        transform: translate(0px, 0px) rotate(360deg);
+    }
+}
+
+@-webkit-keyframes animationFramesThree {
+    0% {
+        -webkit-transform: translate(0px, 0px) rotate(0deg);
+    }
+    30% {
+        -webkit-transform: translate(80px, 70px) rotate(120deg);
+    }
+    60% {
+        -webkit-transform: translate(160px, 140px) rotate(2400deg);
+    }
+    100% {
+        -webkit-transform: translate(0px, 0px) rotate(360deg);
+    }
+}
+
+@-webkit-keyframes bounce-in-fwd {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+        opacity: 1;
+    }
+
+    35% {
+        -webkit-transform: scale(0.7);
+        transform: scale(0.7);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    50% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    80% {
+        -webkit-transform: scale(0.84);
+        transform: scale(0.84);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    85% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    90% {
+        -webkit-transform: scale(0.95);
+        transform: scale(0.95);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+        opacity: (1);
+    }
+}
+
+@keyframes bounce-in-fwd {
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+        opacity: 1;
+    }
+
+    35% {
+        -webkit-transform: scale(0.7);
+        transform: scale(0.7);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    50% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    80% {
+        -webkit-transform: scale(0.84);
+        transform: scale(0.84);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    85% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-animation-timing-function: ease-out;
+        animation-timing-function: ease-out;
+    }
+
+    90% {
+        -webkit-transform: scale(0.95);
+        transform: scale(0.95);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-animation-timing-function: ease-in;
+        animation-timing-function: ease-in;
+        opacity: (1);
+    }
+}
+
+@-webkit-keyframes move-l {
+    0% {
+        -webkit-transform: translate3d(0);
+        transform: translate3d(0);
+    }
+
+    50% {
+        -webkit-transform: translate3d(5px, -5px, -5px);
+        transform: translate3d(5px, -5px, -5px);
+    }
+}
+
+@keyframes move-l {
+    0% {
+        -webkit-transform: translate3d(0);
+        transform: translate3d(0);
+    }
+
+    50% {
+        -webkit-transform: translate3d(5px, -5px, -5px);
+        transform: translate3d(5px, -5px, -5px);
+    }
+}

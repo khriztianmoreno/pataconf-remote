@@ -1,0 +1,567 @@
+ /*
+======================================== 
+* Template Name: Evenum
+* Author: WPEqual
+* File Name: Responsive Style
+========================================
+*/
+ @media screen and (max-width: 1199px) {
+     #hero-section .hero-backgr {
+         position: relative;
+         width: 450px;
+     }
+
+     #hero-section .hero-wrap .shape-one-image {
+         top: 15%;
+         right: 0;
+         max-width: 500px;
+     }
+
+     #parallax_wrap .layer1 .img_parallax {
+         height: 270px;
+         top: 0px;
+         right: -30px;
+     }
+
+     .layer-2-bg {
+         right: 21px;
+         top: 202px;
+         width: 50px;
+     }
+
+     .layer-1-bg {
+         right: 236px;
+         width: 50px;
+         top: 77px;
+     }
+
+     #sponsor-section #timer {
+         padding: 0;
+     }
+
+     #hero-section .tp-caption {
+         min-width: 100% !important;
+         padding: 0 15px !important;
+     }
+
+     #hero-section .heading-one h1 {
+         font-size: 65px;
+         padding-top: 30px;
+     }
+
+     #google-container {
+         height: 450px;
+     }
+
+     .single-price {
+         background-position: 5em 19em !important;
+     }
+ }
+
+ @media screen and (max-width: 991px) {
+     .nav-brand img {
+         max-width: 100px;
+         height: auto;
+         margin-top: 5px;
+     }
+
+     .submenu-indicator {
+         margin-left: 5px;
+         margin-top: 6px;
+     }
+
+     .nav-menu>li>a {
+         padding: 32px 8px;
+         font-size: 12px;
+     }
+
+     .nav-menu>li>a.open-shopping {
+         font-size: 13px;
+         margin-top: 0px;
+     }
+
+     #hero-section .hero-wrap {
+         padding: 150px 0;
+         display: flex;
+         flex-direction: column;
+     }
+
+     #hero-section .hero-backgr {
+         position: relative;
+         width: 550px;
+         float: left;
+         order: 3;
+     }
+
+     #sponsor-section .sponsor-wrap img.img-fluid {
+         width: 127px;
+         padding: 0 8px;
+     }
+
+     #sponsor-section .sponsor-wrap {
+         padding: 40px 30px;
+     }
+
+     .single-price {
+         padding: 15px !important;
+         background-position: 2em 16em !important;
+     }
+
+     .single-price p {
+         font-size: 14px;
+         line-height: 24px;
+     }
+
+     #footer-section .col-md-3 {
+         flex: 0 0 50%;
+         max-width: 50%;
+         padding: 15px;
+     }
+
+     .search-overlay .search-form-overlay {
+         width: 80%;
+     }
+
+     .ev-accordion .card-body {
+         background: #ffffff;
+     }
+
+     .single-price .lable {
+         padding: 2px 10px;
+         top: 7px;
+         right: 7px;
+     }
+
+     .nav-dropdown>li>a {
+         font-size: 12px;
+         padding: 11px 20px;
+     }
+
+     #sponsor-section .sponsor-wrap.time-wrap {
+         padding-bottom: 20px;
+     }
+
+     #timer>div {
+         font-size: 65px;
+     }
+
+     #timer>div>span {
+         font-size: 15px;
+     }
+
+     .blog-full .single-blog-inner {
+         position: relative;
+         bottom: 0;
+         left: 0;
+     }
+
+     .blog-full .single-blog-wrap {
+         margin-bottom: 0;
+     }
+
+     .col-md-8.blog-single {
+         flex: 0 0 100%;
+         max-width: 100%;
+     }
+
+     .col-md-4.sidebar {
+         flex: 0 0 100%;
+         max-width: 100%;
+         margin-top: 40px;
+     }
+
+     #subscriber-section .container>.row>.col-md-8 {
+         flex: 0 0 100%;
+         max-width: 100%;
+     }
+
+     .input-field {
+         width: 100%;
+         padding: 0;
+     }
+
+     .input-field:nth-child(even) {
+         padding: 0;
+     }
+
+     .schedule-layout-two .nav-pills .nav-link {
+         font-size: 22px;
+         padding: 20px 0;
+     }
+
+     .schedule-layout-two .nav-pills .nav-link span {
+         font-size: 12px;
+     }
+
+     .schedule-layout-two img {
+         max-width: 100%;
+     }
+
+     .ev-accordion .card-header .time-wrap {
+         font-size: 18px;
+     }
+
+     h4.ev-ac-title {
+         font-size: 20px;
+         margin-bottom: 0;
+     }
+
+     .ev-accordion .card-header .speaker-info {
+         margin-top: 10px;
+     }
+
+     .schedule-layout-two .ev-accordion .card-body {
+         background: #ffffff;
+     }
+
+     #hero-section .heading-one h1 {
+         font-size: 50px;
+         padding-top: 40px;
+     }
+
+     .sidebar .event-post-sidebar {
+         max-width: 400px;
+     }
+ }
+
+ @media screen and (max-width: 768px) {
+     .nav-layout-two {
+         padding: 3px 0 5px;
+     }
+ }
+
+ @media screen and (max-width: 767px) {
+     .ev-nav-fixed {
+         margin-top: -1px;
+         padding: 8px 0;
+     }
+
+     .hide-mobile {
+         display: none !important;
+     }
+
+     .view-mobile {
+         display: inline-block;
+     }
+
+     .mobile-offcanvas {
+         top: 1px;
+         position: relative;
+     }
+
+     .search-cart {
+         float: right;
+         margin-top: 11px;
+         margin-right: 60px;
+     }
+
+     .search-cart>div {
+         display: inline-block;
+         padding-left: 12px;
+     }
+
+     .search-cart>div a {
+         color: #474f5f;
+     }
+
+     .open-shopping.shopping-click {
+         font-size: 18px;
+         position: relative;
+         top: 0px;
+     }
+
+     .nav-toggle:before {
+         content: "";
+         position: absolute;
+         width: 18px;
+         height: 2px;
+         box-shadow: 0 0.4em 0 0 #70798b, 0 0.8em 0 0 #70798b;
+     }
+
+     .navigation-portrait .nav-brand {
+         position: relative;
+         top: -3px !important;
+     }
+
+     .navigation-portrait .dropdown-cart {
+         width: 100%;
+         position: absolute;
+         right: 0;
+         top: 57px;
+         left: auto;
+     }
+
+     .nav-menu>li>a {
+         font-size: 15px;
+     }
+
+     .nav-dropdown>li>a {
+         font-size: 14px;
+     }
+
+     .nav-layout-three li a {
+         color: #3c4859;
+     }
+
+     .nav-layout-three .submenu-indicator-chevron {
+         border-color: transparent #3c4859 #3c4859 transparent;
+     }
+
+     #hero-section .hero-wrap {
+         padding: 170px 0;
+         text-align: center;
+     }
+
+     #hero-section .hero-backgr {
+         left: -70px;
+     }
+
+     .speaker-layout .speaker-wrap .single-speaker {
+         max-width: 400px;
+         margin: 0 auto 30px;
+     }
+
+     #counter-section .count-wrap {
+         margin: 20px auto;
+         max-width: 400px;
+     }
+
+     .info-wrap {
+         margin: 20px auto;
+         max-width: 400px;
+         padding: 50px 40px 60px;
+     }
+
+     .single-blog-wrap img {
+         width: 100%;
+     }
+
+     #sponsor-section .sponsor-wrap {
+         padding: 40px 50px;
+         text-align: center;
+     }
+
+     #sponsor-section .sponsor-wrap img.img-fluid {
+         width: auto;
+         padding: 20px 10px;
+     }
+
+     #footer-section .col-md-3 {
+         flex: 0 0 100%;
+         max-width: 100%;
+         padding: 20px 15px;
+     }
+
+     #sponsor-section .sponsor-wrap.time-wrap {
+         padding: 20px 0px 20px 30px;
+     }
+
+     #sponsor-section .sponsor-wrap.time-wrap #timer>div {
+         margin-right: 10px;
+     }
+
+     #google-container {
+         height: 400px;
+     }
+
+     .schedule-layout-two .nav-pills .nav-link {
+         font-size: 24px;
+     }
+
+     .contact-form {
+         margin-top: 40px;
+     }
+
+     #subscriber-section .pr-0 {
+         padding-right: 15px !important;
+         margin-bottom: 25px;
+     }
+
+     .ev-accordion .card-body {
+         background: #ffffff;
+     }
+
+     .ev-accordion .card-header .col-md-2 {
+         flex: 0 0 50%;
+         max-width: 50%;
+         margin-bottom: 20px;
+     }
+
+     .schedule-layout-two .ev-accordion .card-body {
+         background: #ffffff;
+     }
+
+     .single-price {
+         padding: 40px !important;
+         background: #ffffff url('../img/text1.png') no-repeat;
+         background-position: 4em 8em !important;
+         background-size: contain;
+     }
+
+     .single-price .lable {
+         padding: 3px 20px;
+         top: 20px;
+         right: 20px;
+     }
+
+     .single-price p {
+         font-size: 16px;
+         line-height: 26px;
+     }
+
+     #hero-section .tp-caption {
+         white-space: unset !important;
+         padding: 15px !important;
+         box-sizing: border-box !important;
+     }
+
+     #hero-section .heading-one h1 {
+         font-size: 35px;
+         padding-top: 10px;
+     }
+
+     #hero-section .heading-four h4 {
+         font-size: 20px;
+     }
+
+     #hero-section .heading-four {
+         top: 0 !important;
+     }
+
+     #hero-section .heading-one {
+         top: 60px !important;
+     }
+
+     #hero-section .other-item {
+         top: 280px !important;
+     }
+
+     .faq-form {
+         margin-top: 40px;
+     }
+
+     .cp-preloader {
+         width: 90%;
+         text-align: center;
+     }
+
+     .cp-preloader__letter {
+         font-size: 2rem;
+         letter-spacing: 1rem;
+     }
+ }
+
+ @media screen and (max-width: 575px) {
+     #schedule-section nav.mr-bottom-70 {
+         margin-bottom: 30px;
+     }
+
+     #schedule-section .nav-wrapper .nav-current,
+     .schedule-layout-two .nav-wrapper .nav-current {
+         display: block;
+     }
+
+     .schedule-layout-two .nav-wrapper .nav-current {
+         color: #fff;
+     }
+
+     #schedule-section .nav-tabs,
+     .schedule-layout-two .nav-pills {
+         flex-direction: column;
+         display: none;
+     }
+
+     .rev_slider_wrapper.fullscreen-container,
+     .tp-fullwidth-forcer {
+         height: 650px !important;
+     }
+
+     #hero-section .heading-four {
+         top: -20px !important;
+     }
+
+     #hero-section .heading-one {
+         top: 40px !important;
+     }
+
+     #hero-section .other-item {
+         top: 180px !important;
+     }
+
+     #hero-section .heading-one h1 {
+         font-size: 30px;
+         padding-top: 10px;
+     }
+
+     #schedule-section .nav-tabs.open {
+         display: block;
+     }
+
+     #schedule-section .nav-tabs .nav-link:first-child,
+     #schedule-section .nav-tabs .nav-link:last-child {
+         border-radius: 0;
+     }
+
+     #schedule-section .nav-tabs .nav-link.active:after {
+         display: none;
+     }
+
+     .schedule-layout-two .nav-pills .nav-link.active:before {
+         display: none;
+     }
+
+     .tab-left {
+         margin-bottom: 30px;
+     }
+
+     .schedule-layout-two .col-md-10 {
+         padding-left: 15px !important;
+     }
+ }
+
+ @media screen and (max-width: 479px) {
+     .hero-backgr {
+         display: none;
+     }
+
+     #hero-section .hero-wrap h1 {
+         font-size: 42px;
+         font-weight: 900;
+         margin-bottom: 20px;
+     }
+
+     .ev-accordion .card-body {
+         background: #ffffff;
+     }
+
+     .sidenav-menu {
+         width: 320px;
+     }
+
+     .search-overlay .search-form-overlay input {
+         font-size: 16px;
+     }
+
+     .search-overlay .close-overlay {
+         margin-bottom: 30px;
+         font-size: 20px;
+     }
+
+     #timer>div {
+         font-size: 50px;
+         margin-right: 6%;
+         width: 44%;
+     }
+
+     #timer>div span {
+         font-size: 12px;
+     }
+
+     #hero-section .hero-wrap p {
+         font-size: 18px;
+     }
+
+     .single-price {
+         background-position: 5em 14em !important;
+     }
+ }

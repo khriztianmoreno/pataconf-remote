@@ -1,0 +1,161 @@
+/* #f61e50  */
+a {
+    color: #f61e50;
+}
+
+a:hover {
+    color: #de204c;
+}
+
+.nav-menu>li:hover>a,
+.nav-menu>li.active>a,
+.nav-menu>li.focus>a,
+.nav-dropdown>li:hover>a,
+.nav-dropdown>li.focus>a,
+#hero-section .hero-wrap p span,
+.ev-accordion .card-header .speaker-info .ac-sp-name,
+.color-green,
+.single-price h3,
+.single-blog-inner .post-title:hover h4,
+.single-blog-inner .post-title:hover h3,
+#footer-section .ev-widget-wrap ul li a:hover,
+.dropdown-cart .product-button a:hover,
+.sidenav-menu li a:hover,
+.search-overlay .search-social li a:hover,
+.blog-author .list-inline a:hover,
+.hero-innar li.color-yellow {
+    color: #f61e50 !important;
+}
+
+.ev-btn,
+#schedule-section .nav-tabs .nav-item.show .nav-link,
+#schedule-section .nav-tabs .nav-link.active,
+.ev-btn-medium,
+.ev-btn-submit,
+#top-button,
+.sidenav .closebtn,
+.accordian-list h4:before,
+.accordian-list h4[aria-expanded="true"]::after,
+.schedule-layout-two .nav-pills .nav-link.active,
+.schedule-layout-two .nav-pills .show>.nav-link,
+.preloader {
+    background: #f61e50 !important;
+}
+
+.ev-btn:hover,
+.ev-btn-medium:hover,
+.ev-btn-medium-line:hover,
+.ev-btn-line:hover,
+.ev-btn-submit:hover,
+#top-button:hover,
+#top-button:active {
+    background: #de204c !important;
+}
+
+.speaker-layout .speaker-wrap .single-speaker .sp-hover,
+.single-price .lable,
+.schedule-timer {
+    background: linear-gradient(to bottom, #f61e50, #f45c43);
+    ;
+}
+
+.cbp-caption-zoom .cbp-caption-activeWrap {
+    background: linear-gradient(320deg, rgba(246, 30, 80, 0.8) 0%, rgba(244, 92, 67, 0.8) 100%);
+}
+
+#counter-section .count-wrap:before {
+    background: rgba(246, 30, 80, 0.08);
+}
+
+#counter-section .count-wrap:after {
+    background: rgba(246, 30, 80, 0.04);
+}
+
+.single-price:before {
+    background: rgba(246, 30, 80, 0.08);
+}
+
+.single-price:after {
+    background: rgba(246, 30, 80, 0.04);
+}
+
+#cd-google-map address {
+    background: rgba(246, 30, 80, 0.9);
+}
+
+#cd-zoom-in,
+#cd-zoom-out {
+    background-color: rgba(246, 30, 80, 0.9);
+    background-repeat: no-repeat;
+    background-size: 32px 64px;
+    background-image: url('../lib/google-map/img/cd-icon-controller.svg');
+}
+
+.ev-line-c1 {
+    border-top-color: #f61e50 !important;
+}
+
+.ev-btn-medium-line,
+.ev-btn-line,
+.sidebar .sidebar-search input:focus,
+.comment-form-layout input:focus,
+.comment-form-layout input:active,
+.comment-form-layout textarea:focus,
+.comment-form-layout textarea:active,
+.input-field input:focus,
+.input-textarea textarea:focus {
+    border-color: #f61e50 !important;
+}
+
+.ev-btn-medium-line:hover,
+.ev-btn-line:hover {
+    border-color: #de204c !important;
+}
+
+#schedule-section .nav-tabs .nav-link.active:after {
+    border-color: #f61e50 transparent transparent transparent !important;
+}
+
+.schedule-layout-two .nav-pills .nav-link.active:before {
+    border-color: transparent transparent transparent #f61e50 !important;
+}
+
+.nav-menu>li:hover>a .submenu-indicator-chevron,
+.nav-menu>.active>a .submenu-indicator-chevron,
+.nav-menu>.focus>a .submenu-indicator-chevron,
+.nav-dropdown>li:hover>a .submenu-indicator-chevron,
+.nav-dropdown>.focus>a .submenu-indicator-chevron {
+    border-color: transparent #f61e50 #f61e50 transparent !important;
+}
+
+.single-price h3.color-orange {
+    color: #FF5722 !important;
+}
+
+.single-price h3.color-purpal {
+    color: #9C27B0 !important;
+}
+
+.sponsor .icon .color-green {
+    color: #37e075 !important;
+}
+
+#days.color-red {
+    color: #37e075 !important;
+}
+
+#sponsor-section .sponsor-wrap {
+    background: #ffffff url('../img/text1-red.png') no-repeat 59em 3em;
+    background-size: contain;
+}
+.single-price {
+    background: #ffffff url('../img/text1-red.png') no-repeat 1em 16em;
+    background-size: contain;
+}
+
+@media screen and (max-width: 767px) {
+    .single-price {
+        background: #ffffff url('../img/text1-red.png') no-repeat 5em 14em;
+        background-size: contain;
+    }
+}
