@@ -1141,7 +1141,7 @@ textarea {
 }
 
 #hero-section.hero-layout-two {
-  background: url('../img/slider-image.jpg') no-repeat;
+  background: url('../img/slider-home.jpg') no-repeat;
   background-size: cover;
 }
 
@@ -1295,7 +1295,6 @@ textarea {
 #about-section {
   padding: 100px 0;
 }
-
 /*
 ========================================
   05 - Counter Style
