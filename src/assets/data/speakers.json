@@ -1,0 +1,29 @@
+[
+  {
+    "name": "John Doah",
+    "title":"Developer Evangelist",
+    "facebook": "https://facebook.com",
+    "imageUrl": "https://via.placeholder.com/480x580/eee/ddd",
+    "instagram": "https://instagram.com",
+    "linkedin": "https://linkedin.com",
+    "twitter":" 'https://twitter.com"
+  },
+  {
+    "name": "John Doah Second",
+    "title":"Developer Evangelist",
+    "facebook": "https://facebook.com",
+    "imageUrl": "https://via.placeholder.com/480x580/eee/ddd",
+    "instagram": "https://instagram.com",
+    "linkedin": "https://linkedin.com",
+    "twitter":" 'https://twitter.com"
+  },
+  {
+    "name": "John Doah Third",
+    "title":"Developer Evangelist",
+    "facebook": "https://facebook.com",
+    "imageUrl": "https://via.placeholder.com/480x580/eee/ddd",
+    "instagram": "https://instagram.com",
+    "linkedin": "https://linkedin.com",
+    "twitter":" 'https://twitter.com"
+  }
+]
