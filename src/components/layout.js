@@ -11,7 +11,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <a href="/" id="top-button">
-        <i class="fas fa-chevron-up"></i>
+        <i className="fas fa-chevron-up"></i>
       </a>
       {ENV === 'production' && <Preloader /> }
       <Header />
