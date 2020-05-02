@@ -286,18 +286,18 @@
   function makeTimer() {
 
     //		var endTime = new Date("29 April 2018 9:56:00 GMT+01:00");
-    var endTime = new Date("29 April 2020 9:56:00 GMT+01:00");
+    let endTime = new Date("06 June 2020 9:00:00 GMT+01:00");
     endTime = (Date.parse(endTime) / 1000);
 
-    var now = new Date();
+    let now = new Date();
     now = (Date.parse(now) / 1000);
 
-    var timeLeft = endTime - now;
+    let timeLeft = endTime - now;
 
-    var days = Math.floor(timeLeft / 86400);
-    var hours = Math.floor((timeLeft - (days * 86400)) / 3600);
-    var minutes = Math.floor((timeLeft - (days * 86400) - (hours * 3600)) / 60);
-    var seconds = Math.floor((timeLeft - (days * 86400) - (hours * 3600) - (minutes * 60)));
+    let days = Math.floor(timeLeft / 86400);
+    let hours = Math.floor((timeLeft - (days * 86400)) / 3600);
+    let minutes = Math.floor((timeLeft - (days * 86400) - (hours * 3600)) / 60);
+    let seconds = Math.floor((timeLeft - (days * 86400) - (hours * 3600) - (minutes * 60)));
 
     if (hours < "10") {
       hours = "0" + hours;

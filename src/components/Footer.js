@@ -1,5 +1,5 @@
 import React from 'react'
-import { useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql, Link } from "gatsby"
 import Img from "gatsby-image"
 
 const QUERY = graphql`
@@ -37,9 +37,9 @@ const Footer = () => {
             <div className="ev-widget-wrap">
               <h5 className="ev-widget-title mb-4">Quick Links</h5>
               <ul>
-                <li><a href="/">Organizers</a></li>
-                <li><a href="/">Call for Volunteer</a></li>
-                <li><a href="/">Schedule</a></li>
+                <li><Link to="/">Organizers</Link></li>
+                <li><Link to="/">Call for Volunteer</Link></li>
+                <li><Link to="/">Schedule</Link></li>
               </ul>
             </div>
           </div>
@@ -48,8 +48,8 @@ const Footer = () => {
             <div className="ev-widget-wrap">
               <h5 className="ev-widget-title mb-4">Information</h5>
               <ul>
-                <li><a href="/">Call for Speakers</a></li>
-                <li><a href="/">Sponsors Details</a></li>
+                <li><Link to="/">Call for Speakers</Link></li>
+                <li><Link to="/">Sponsors Details</Link></li>
               </ul>
             </div>
           </div>
