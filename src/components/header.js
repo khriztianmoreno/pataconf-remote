@@ -18,8 +18,8 @@ const Header = () => (
         <div className="nav-menus-wrapper">
           <span className="nav-menus-wrapper-close-button">✕</span>
           <ul className="nav-menu align-to-right">
-            <li className="active"><Link to="/">Inicio</Link></li>
-            <li><Link to="/sponsors">Quiero Patrocinar</Link></li>
+            <li><Link to="/" activeClassName="nav-menu-active">Inicio</Link></li>
+            <li><Link to="/sponsors" activeClassName="nav-menu-active">Quiero Patrocinar</Link></li>
             <li className="hide-mobile">
               <Link to="/" className="open-offcanvas">
                 <i className="flaticon-menu"></i>

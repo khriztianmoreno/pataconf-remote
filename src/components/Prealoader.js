@@ -24,10 +24,13 @@ const EVENT_NAME = 'PATACONF'
 
 const Preloader = () => {
   const [isShow, setShow] = useState(true)
+
   useEffect(() => {
-    setTimeout(() => {
+    const timer = setTimeout(() => {
       setShow(false)
-    }, 400);
+    }, 400)
+
+    return () => clearTimeout(timer)
   }, [])
 
   return (
