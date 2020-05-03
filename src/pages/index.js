@@ -7,6 +7,7 @@ import Sponsors from '../components/Sponsors'
 import Speakers from '../components/Speakers'
 import About from '../components/About'
 import TicketPrices from '../components/TicketPrices'
+import CounterHome from '../components/CounterHome'
 
 const IndexPage = () => (
   <Layout>
@@ -14,6 +15,7 @@ const IndexPage = () => (
     <Hero />
     <Sponsors />
     <About />
+    <CounterHome />
     <Speakers />
     <TicketPrices />
   </Layout>
