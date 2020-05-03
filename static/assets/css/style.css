@@ -1218,10 +1218,8 @@ textarea {
 }
 
 #hero-section.hero-innar {
-  /* background: url('../img/innar-bg.jpg') no-repeat;
-    background-size: cover;
-    background-position: right center; */
-  background: transparent;
+  background: url('../img/slider-sponsor.jpg') no-repeat;
+  background-size: cover;
 }
 
 .hero-innar h1 {

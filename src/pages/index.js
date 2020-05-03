@@ -6,6 +6,7 @@ import Hero from '../components/Hero'
 import Sponsors from '../components/Sponsors'
 import Speakers from '../components/Speakers'
 import About from '../components/About'
+import Gallery from '../components/Gallery'
 
 const IndexPage = () => (
   <Layout>
@@ -14,6 +15,7 @@ const IndexPage = () => (
     <Sponsors />
     <About />
     <Speakers />
+    <Gallery />
   </Layout>
 )
 

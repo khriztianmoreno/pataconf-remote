@@ -1,0 +1,72 @@
+[
+  {
+    "imageUrl": "1.jpg",
+    "styleGallery": {
+      "width": "320px",
+      "left": "0px",
+      "top": "0px"
+    },
+    "width": 380,
+    "height": 360
+  },
+  {
+    "imageUrl": "2.jpg",
+    "styleGallery": {
+      "width": "320px",
+      "left": "320px",
+      "top": "0px"
+    },
+    "width": 380,
+    "height": 570
+  },
+  {
+    "imageUrl": "3.jpg",
+    "styleGallery": {
+      "width": "320px",
+      "left": "640px",
+      "top": "0px"
+    },
+    "width": 380,
+    "height": 360
+  },
+  {
+    "imageUrl": "4.jpg",
+    "width": 380,
+    "height": 570,
+    "styleGallery": {
+      "width": "320px",
+      "left": "960px",
+      "top": "0px"
+    }
+  },
+  {
+    "imageUrl": "5.jpg",
+    "width": 380,
+    "height": 360,
+    "styleGallery": {
+      "width": "320px",
+      "left": "320px",
+      "top": "303px"
+    }
+  },
+  {
+    "imageUrl": "6.jpg",
+    "width": 380,
+    "height": 570,
+    "styleGallery": {
+      "width": "320px",
+      "left": "960px",
+      "top": "303px"
+    }
+  },
+  {
+    "imageUrl": "7.jpg",
+    "width": 380,
+    "height": 360,
+    "styleGallery": {
+      "width": "320px",
+      "left": "0px",
+      "top": "480px"
+    }
+  }
+]
