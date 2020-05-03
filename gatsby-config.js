@@ -29,10 +29,10 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Pataconf Conferencia virtual`,
-        short_name: `starter`,
+        short_name: `PatacCONF`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#fdc302`,
+        theme_color: `#fdc302`,
         display: `minimal-ui`,
         icon: `src/images/pataconf.png`, // This path is relative to the root of the site.
       },

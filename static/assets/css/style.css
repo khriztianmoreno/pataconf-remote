@@ -1140,9 +1140,8 @@ textarea {
   animation: animationRoatet 8s infinite 0s linear;
 }
 
-#hero-section.hero-layout-two {
-  background: url('../img/slider-home.jpg') no-repeat;
-  background-size: cover;
+#hero-section.hero-layout-two::before {
+  filter: brightness(0.6);
 }
 
 .hero-layout-two .hero-wrap h1,
@@ -1217,11 +1216,11 @@ textarea {
   min-height: 600px !important;
 }
 
-#hero-section.hero-innar {
+/* #hero-section.hero-innar {
   background: url('../img/slider-sponsor.jpg') no-repeat;
   background-size: cover;
   background-position: center;
-}
+} */
 
 .hero-innar h1 {
   font-size: 80px;
@@ -1653,10 +1652,10 @@ textarea {
 ========================================
 */
 
-#price-section {
+/* #price-section {
   background: url(../img/bg.jpeg) no-repeat center center;
   background-size: cover;
-}
+} */
 
 .price-bg {
   background: rgba(0, 0, 0, 0.57);

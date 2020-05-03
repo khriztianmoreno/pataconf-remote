@@ -1,10 +1,11 @@
 import React from "react"
-import { Link, useStaticQuery, graphql } from "gatsby"
+import { useStaticQuery, graphql } from "gatsby"
 
 import BecomeSponsor from '../components/BecomeSponsor'
 import Layout from "../components/Layout"
 import SEO from "../components/seo"
 import SingleSpeaker from '../components/SingleSpeaker'
+import SponsorHero from '../components/SponsorHero'
 
 const ALL_SPONSORS_QUERY = graphql`
   query {
@@ -32,19 +33,7 @@ const SponsorPage = () => {
   return (
   <Layout footerAlternative>
     <SEO title="Sponsor" />
-    <section id="hero-section" className="hero-innar">
-      <div className="container">
-        <div className="hero-wrap">
-          <h1>Quiero Patrocinar</h1>
-          <ul className="list-inline">
-            <li className="list-inline-item">
-              <Link to="/">Inicio /</Link>
-            </li>
-            <li className="list-inline-item color-yellow">Quiero Patrocinar</li>
-          </ul>
-        </div>
-      </div>
-    </section>
+    <SponsorHero />
     <BecomeSponsor/>
     <section id="speaker-section-two" className="pa-100 speaker-layout speaker-layout-two">
       <div className="container-fluid">
