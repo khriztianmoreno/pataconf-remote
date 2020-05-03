@@ -309,10 +309,10 @@
       seconds = "0" + seconds;
     }
 
-    $("#days").html(days + "<span>Days</span>");
-    $("#hours").html(hours + "<span>Hours</span>");
+    $("#days").html(days + "<span>Días</span>");
+    $("#hours").html(hours + "<span>Horas</span>");
     $("#minutes").html(minutes + "<span>Min.</span>");
-    $("#seconds").html(seconds + "<span>Sec.</span>");
+    $("#seconds").html(seconds + "<span>Seg.</span>");
 
   }
 

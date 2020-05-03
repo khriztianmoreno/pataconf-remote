@@ -6,6 +6,8 @@ import Hero from '../components/Hero'
 import Sponsors from '../components/Sponsors'
 import Speakers from '../components/Speakers'
 import About from '../components/About'
+import TicketPrices from '../components/TicketPrices'
+import CounterHome from '../components/CounterHome'
 import Gallery from '../components/Gallery'
 
 const IndexPage = () => (
@@ -14,7 +16,9 @@ const IndexPage = () => (
     <Hero />
     <Sponsors />
     <About />
+    <CounterHome />
     <Speakers />
+    <TicketPrices />
     <Gallery />
   </Layout>
 )

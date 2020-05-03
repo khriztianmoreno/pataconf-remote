@@ -10,6 +10,9 @@ const ENV = process.env.NODE_ENV
 const Layout = ({ children }) => {
   return (
     <>
+      <a href="/" id="top-button">
+        <i className="fas fa-chevron-up"></i>
+      </a>
       {ENV === 'production' && <Preloader /> }
       <Header />
       {children}
