@@ -1220,6 +1220,7 @@ textarea {
 #hero-section.hero-innar {
   background: url('../img/slider-sponsor.jpg') no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .hero-innar h1 {

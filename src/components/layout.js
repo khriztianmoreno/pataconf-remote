@@ -5,7 +5,7 @@ import Preloader from './Prealoader'
 import Header from "./Header"
 import Footer from "./Footer"
 
-const Layout = ({ children }) => {
+const Layout = ({ children, footerAlternative }) => {
   return (
     <>
       <a href="/" id="top-button">
@@ -14,13 +14,18 @@ const Layout = ({ children }) => {
       <Preloader />
       <Header />
       {children}
-      <Footer />
+      <Footer isAlternative={footerAlternative} />
     </>
   )
 }
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
+  footerAlternative: PropTypes.bool,
+}
+
+Layout.defaultProps = {
+  footerAlternative: false,
 }
 
 export default Layout

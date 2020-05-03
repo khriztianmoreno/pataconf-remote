@@ -30,7 +30,7 @@ const SponsorPage = () => {
   const { edges: sponsors = [] } = allSponsorsJson
 
   return (
-  <Layout>
+  <Layout footerAlternative>
     <SEO title="Sponsor" />
     <section id="hero-section" className="hero-innar">
       <div className="container">
@@ -46,7 +46,7 @@ const SponsorPage = () => {
       </div>
     </section>
     <BecomeSponsor/>
-    <section id="speaker-section" className="pt-100 speaker-layout">
+    <section id="speaker-section-two" className="pa-100 speaker-layout speaker-layout-two">
       <div className="container-fluid">
         <div className="section-intro text-center mr-bottom-70">
           <h2>Nuestros Patrocinadores</h2>
