@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="row">
           <div className="col-md-4">
             <div className="ev-widget-wrap">
-              <img src="pataconf-logo-sticky.png" alt="logo" className="img-fluid mb-4" data-rjs="3" width="152" />
+              <img src="/pataconf-logo-sticky.png" alt="logo" className="img-fluid mb-4" data-rjs="3" width="152" />
               <ul className="social mt-4">
                 <li><a href="//twitter.com/colombia_dev"><i className="fab fa-twitter"></i></a></li>
                 <li><a href="//twitter.com/colombia_dev"><i className="fab fa-instagram"></i></a></li>
