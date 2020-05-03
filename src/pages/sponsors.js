@@ -1,10 +1,9 @@
 import React from "react"
-import { Link } from "gatsby"
+import { Link, useStaticQuery, graphql } from "gatsby"
 
-import Layout from "../components/Layout"
 import BecomeSponsor from '../components/BecomeSponsor'
+import Layout from "../components/Layout"
 import SEO from "../components/seo"
-import { useStaticQuery, graphql } from 'gatsby'
 import SingleSpeaker from '../components/SingleSpeaker'
 
 const ALL_SPONSORS_QUERY = graphql`
@@ -26,7 +25,6 @@ const ALL_SPONSORS_QUERY = graphql`
   }
 `
 
-
 const SponsorPage = () => {
   const { allSponsorsJson } = useStaticQuery(ALL_SPONSORS_QUERY)
   const { edges: sponsors = [] } = allSponsorsJson
@@ -39,7 +37,9 @@ const SponsorPage = () => {
         <div className="hero-wrap">
           <h1>Quiero Patrocinar</h1>
           <ul className="list-inline">
-            <li className="list-inline-item"><Link to="/">Inicio /</Link></li>
+            <li className="list-inline-item">
+              <Link to="/">Inicio /</Link>
+            </li>
             <li className="list-inline-item color-yellow">Quiero Patrocinar</li>
           </ul>
         </div>
