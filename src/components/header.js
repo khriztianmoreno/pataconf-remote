@@ -7,10 +7,10 @@ const Header = () => (
       <nav id="ev-nav" className="navigation">
         <div className="nav-header">
           <Link className="nav-brand non-sticky" to="/">
-            <img src="pataconf-logo.png" alt="Evenum" data-rjs="3" width="152" />
+            <img src="/pataconf-logo.png" alt="Pataconf" data-rjs="3" width="152" />
           </Link>
           <Link className="nav-brand sticky" to="/">
-            <img src="pataconf-logo-sticky.png" alt="Evenum" data-rjs="3" width="152" />
+            <img src="/pataconf-logo-sticky.png" alt="Pataconf" data-rjs="3" width="152" />
           </Link>
           <div className="nav-toggle" />
         </div>
