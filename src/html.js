@@ -24,20 +24,20 @@ export default function HTML(props) {
         {props.postBodyComponents}
 
         {/* All JavaScript */}
-        <script src={withPrefix('assets/lib/jquery.min.js')} type="text/javascript" />
-        <script src={withPrefix('assets/lib/bootstrap/js/bootstrap.min.js')} type="text/javascript" />
-        <script src={withPrefix('assets/lib/nav/js/navigation.min.js')} type="text/javascript" />
-        <script src={withPrefix('assets/lib/jquery.unveiledNavigation.js')} type="text/javascript" />
-        <script src={withPrefix('assets/lib/tilt/tilt.jquery.js')} type="text/javascript" />
-        <script src={withPrefix('assets/lib/matchheight/jquery.matchHeight-min.js')} type="text/javascript" />
-        <script src={withPrefix('assets/lib/cubeportfolio/js/jquery.cubeportfolio.min.js')} type="text/javascript" />
-        <script src={withPrefix('assets/lib/counterup/waypoints.min.js')} type="text/javascript" />
-        <script src={withPrefix('assets/lib/counterup/jquery.counterup.min.js')} type="text/javascript" />
-        <script src={withPrefix('assets/lib/slick/slick.min.js')} type="text/javascript" />
-        <script src={withPrefix('assets/lib/retina/retina.min.js')} type="text/javascript" />
-        <script src={withPrefix('assets/lib/ajaxchimp/ajaxchimp.min.js')} type="text/javascript" />
+        <script src={withPrefix('/assets/lib/jquery.min.js')} type="text/javascript" />
+        <script src={withPrefix('/assets/lib/bootstrap/js/bootstrap.min.js')} type="text/javascript" />
+        <script src={withPrefix('/assets/lib/nav/js/navigation.min.js')} type="text/javascript" />
+        <script src={withPrefix('/assets/lib/jquery.unveiledNavigation.js')} type="text/javascript" />
+        <script src={withPrefix('/assets/lib/tilt/tilt.jquery.js')} type="text/javascript" />
+        <script src={withPrefix('/assets/lib/matchheight/jquery.matchHeight-min.js')} type="text/javascript" />
+        <script src={withPrefix('/assets/lib/cubeportfolio/js/jquery.cubeportfolio.min.js')} type="text/javascript" />
+        <script src={withPrefix('/assets/lib/counterup/waypoints.min.js')} type="text/javascript" />
+        <script src={withPrefix('/assets/lib/counterup/jquery.counterup.min.js')} type="text/javascript" />
+        <script src={withPrefix('/assets/lib/slick/slick.min.js')} type="text/javascript" />
+        <script src={withPrefix('/assets/lib/retina/retina.min.js')} type="text/javascript" />
+        <script src={withPrefix('/assets/lib/ajaxchimp/ajaxchimp.min.js')} type="text/javascript" />
 
-        <script src={withPrefix('assets/js/evenum.js')} type="text/javascript" />
+        <script src={withPrefix('/assets/js/evenum.js')} type="text/javascript" />
       </body>
     </html>
   )

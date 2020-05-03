@@ -8,7 +8,6 @@ import Speakers from '../components/Speakers'
 import About from '../components/About'
 import TicketPrices from '../components/TicketPrices'
 import CounterHome from '../components/CounterHome'
-import Gallery from '../components/Gallery'
 
 const IndexPage = () => (
   <Layout>
@@ -19,7 +18,6 @@ const IndexPage = () => (
     <CounterHome />
     <Speakers />
     <TicketPrices />
-    <Gallery />
   </Layout>
 )
 

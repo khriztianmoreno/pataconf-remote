@@ -32,7 +32,7 @@ const BecomeSponsor = () => {
             }
           </div>
           <div className="text-center">
-              <a className="btn ev-btn-line mr-top-40" href="mailto:mafesernaarboleda@gmail.com?Subject=Quiero%20ser%20sponsor%20">Quiero Patrocinar</a>
+            <a className="btn ev-btn-line mr-top-40" href="mailto:mafesernaarboleda@gmail.com?Subject=Quiero%20ser%20sponsor%20">Quiero Patrocinar</a>
           </div>
       </div>
     </section>
